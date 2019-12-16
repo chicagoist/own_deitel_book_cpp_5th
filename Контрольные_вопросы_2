@@ -225,3 +225,166 @@ return 0;
 }
 
 2.19.
+
+ // Програрамма будет вычислять сумму, среднее,
+ //произведение и больше-меньше
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  setlocale(0, "");
+
+  cout << "Введите три различных числа: \n";
+  int x;
+  int y;
+  int z;
+
+  cin >> x >> y >> z;
+
+  cout << "Сумма равна " << x + y + z << endl;
+  cout << "Среднее значение равно " << (x + y + z) / 3 << endl;
+  cout << "Произведение равно " << x * y * z << endl;
+  
+  if (x < y && x < z){
+    cout << "Наименьшее равно " << x << endl;
+  }else if ( y < x && y < z){
+    cout << "Наименьшее равно " << y << endl;
+  }else if ( z < x && z < y){
+    cout << "Наименьшее равно " << z << endl;
+  }
+
+  if ( x > y && x > z){
+    cout << "Наибольшее равно " << x << endl;
+  }else if ( y > x && y > z){
+    cout << "Наибольшее равно " << y << endl;
+  }else if ( z > x && z > y){
+    cout << "Наибольшее равно " << z << endl;
+  }
+
+    return 0;
+}
+
+
+2.20.
+
+/* Програрамма считывает радиус и будет вычислять диаметр, длину окружности и площадь круга */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+setlocale(0, "");
+
+cout << "Введите радиус круга : \n";
+int radius;
+
+cin >> radius;
+
+cout << "Диаметр равен " << radius * 2 << endl << "Длина окружности равна " << 2 * 3.14159 * radius << endl << "Площадь круга равна " << 3.14159 * ( radius * radius ) << endl;
+
+return 0;
+}
+
+2.21.
+
+нахуй!
+
+2.22.
+
+Правую часть ёлочки. ;-)
+
+2.23.
+
+ /* Програрамма считывает пять целых чисел и вычисляет наибольшее и наименьшее */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  setlocale(0, "");
+
+  int x1;
+  int x2;
+  int x3;
+  int x4;
+  int x5;
+
+  cin >> x1 >> x2 >> x3 >> x4 >> x5;
+
+  if( x1 < x2 )
+   if ( x1 < x3 )
+    if ( x1 < x4 )
+     if ( x1 < x5 )
+      cout << "Наименьшее число " << x1 << endl;
+
+  if( x2 < x1 )
+   if ( x2 < x3 )
+    if ( x2 < x4 )
+     if ( x2 < x5 )
+      cout << "Наименьшее число " << x2 << endl;
+
+  if( x3 < x2 )
+   if ( x3 < x1 )
+    if ( x3 < x4 )
+     if ( x3 < x5 )
+      cout << "Наименьшее число " << x3 << endl;
+
+  if( x4 < x2 )
+   if ( x4 < x3 )
+    if ( x4 < x1 )
+     if ( x4 < x5 )
+      cout << "Наименьшее число " << x4 << endl;
+
+
+  if( x5 < x2 )
+   if ( x5 < x3 )
+    if ( x5 < x4 )
+     if ( x5 < x1 )
+      cout << "Наименьшее число " << x5 << endl;    
+  
+
+  if( x1 > x2 )
+   if ( x1 > x3 )
+    if ( x1 > x4 )
+     if ( x1 > x5 )
+      cout << "Набольшее число " << x1 << endl;
+
+  if( x2 > x1 )
+   if ( x2 > x3 )
+    if ( x2 > x4 )
+     if ( x2 > x5 )
+      cout << "Наибольшее число " << x2 << endl;
+
+  if( x3 > x2 )
+   if ( x3 > x1 )
+    if ( x3 > x4 )
+     if ( x3 > x5 )
+      cout << "Наибольшее число " << x3 << endl;
+
+  if( x4 > x2 )
+   if ( x4 > x3 )
+    if ( x4 > x1 )
+     if ( x4 > x5 )
+      cout << "Наибольшее число " << x4 << endl;
+
+
+  if( x5 > x2 )
+   if ( x5 > x3 )
+    if ( x5 > x4 )
+     if ( x5 > x1 )
+      cout << "Наибольшее число " << x5 << endl;    
+
+    return 0;
+}
+
+
+
+
+
