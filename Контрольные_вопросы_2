@@ -292,7 +292,7 @@ return 0;
 
 2.21.
 
-нахуй!
+yf[eq !
 
 2.22.
 
@@ -385,6 +385,197 @@ int main()
 }
 
 
+
+2.24.
+
+ /* Програрамма считывает целое число и вычисляет чётное оно или нечётное */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  setlocale(0, "");
+
+  cout << "Введите целое число : ";
+
+  int x1;
+
+  cin >> x1;
+
+  if ( x1 % 2){
+    cout << "Число " << x1 << " нечётное.\n";
+  }
+
+  if ( !( x1 % 2) ){
+    cout << "Число " << x1 << " чётное.\n";
+  }
+
+    return 0;
+}
+
+
+2.25.
+
+ /* Програрамма считывает два целых числа и вычисляет является ли первое число кратным ко второму */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  setlocale(0, "");
+
+  cout << "Введите первое целое число : ";
+
+  int x1;
+
+  cin >> x1;
+
+  if ( x1 == 0){
+    cout << "Ошибка! Ноль нельзя \n";
+    return 0;
+  }
+
+  cout << endl;
+
+  cout << "Введите второе целое число : ";
+
+  int x2;
+
+  cin >> x2;
+
+    if ( x2 == 0){
+    cout << "Ошибка! Ноль нельзя \n";
+    return 0;
+  }
+
+  cout << endl;
+
+
+  if ( x1 % x2 ){
+    cout << "Число " << x1 << " не является кратным числу " << x2 << endl;
+  }
+
+  if ( !( x1 % x2) ){
+    cout << "Число " << x1 << " является кратным числу " << x2 << endl;
+  }
+
+    return 0;
+}
+
+
+2.26.
+
+yf[eq !
+
+
+2.27.
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  setlocale(0, "");
+
+
+
+  cout << "A = " << static_cast<int>('A') << endl;
+  cout << "B = " << static_cast<int>('B') << endl;
+  cout << "C = " << static_cast<int>('C') << endl;
+  cout << "D = " << static_cast<int>('D') << endl;
+  cout << "E = " << static_cast<int>('E') << endl;
+  cout << "a = " << static_cast<int>('a') << endl;
+  cout << "b = " << static_cast<int>('b') << endl;
+  cout << "c = " << static_cast<int>('c') << endl;
+  cout << "d = " << static_cast<int>('d') << endl;
+  cout << "e = " << static_cast<int>('e') << endl;
+  cout << "% = " << static_cast<int>('%') << endl;
+  cout << "* = " << static_cast<int>('*') << endl;
+  cout << "/ = " << static_cast<int>('/') << endl;
+  cout << "+ = " << static_cast<int>('+') << endl;
+  cout << "1 = " << static_cast<int>('1') << endl;
+  cout << "2 = " << static_cast<int>('2') << endl;
+  cout << "3 = " << static_cast<int>('3') << endl;
+
+
+
+    return 0;
+}
+
+
+2.28.
+
+ /* Програрамма считывает пятизначное число и вставляет пробелы между  цифрами */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  setlocale(0, "");
+
+cout << "Введите пятизначное целое число: ";
+
+int x1;
+
+cin >> x1;
+
+cout << endl;
+
+cout << ( x1 / 10000 ) % 10 << " " << ( x1 / 1000 ) % 10 << " " << ( x1 / 100 ) % 10 << " " << ( x1 / 10 ) % 10 << " " <<  x1 % 10 << endl;
+
+    return 0;
+}
+
+
+2.29.
+
+ /* Програрамма выводит таблицу через табуляцию */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  setlocale(0, "");
+
+
+int x1 = 0;
+
+cout << endl;
+
+cout << "число\tквадрат\tкуб\n";
+cout <<  x1 << "\t\t" <<  x1  << "\t\t" <<  x1  << "\n";
+++x1;
+cout << x1 << "\t\t" << x1 * x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+++x1;
+cout << x1 << "\t\t" << x1*x1 << "\t\t" << x1*x1*x1 << "\n";
+
+    return 0;
+}
 
 
 
