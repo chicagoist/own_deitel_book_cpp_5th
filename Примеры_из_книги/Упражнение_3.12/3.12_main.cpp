@@ -1,3 +1,6 @@
+// Упражн. 3.12: 03_12_main.срр
+// Создание объектов Account; демонстрация подтверждения данных.
+
 #include <iostream>
 #include <string>
 #include "Account.h"
@@ -49,10 +52,10 @@ int main()
     cout << "Balance of Max's account after last withdraw is: ";
     accountMax.getBalance();
     cout << endl;
-
+*/
 
     Account accountMinus( -30 );
-*/
+
     return 0;
 }
 
