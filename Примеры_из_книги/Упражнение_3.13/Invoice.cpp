@@ -54,6 +54,7 @@ void Invoice::setAmount( int amount )
     if( amount < 0){
         amountStaff = 0;
         cout << "Error in amount. Try again. \n";
+        exit(0);
     }
 
     if( amount >= 0 ){
@@ -68,6 +69,7 @@ void Invoice::setPrice( int price )
     if( price < 0){
         priceStaff = 0;
         cout << "Error in price. Try again. \n";
+        exit(0);
     }
 
     if( price >= 0 ){
