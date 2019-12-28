@@ -31,6 +31,8 @@ class GradeBook
         } // конец функции displayMessage
 }; // конец класса GradeBook
 
+
+
 // функция main начинает исполнение программы
 int main ()
 {
