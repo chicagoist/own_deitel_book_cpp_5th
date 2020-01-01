@@ -5,81 +5,8 @@
 #include "Employee.h"
 
 
-
 using namespace std;
 
-/*
-class Employee
-{
-public:
-    // конструктор с инициализацией элементов данных
-    Employee() {
-
-        setFirstName( "firstname" ); // переменной  присваивается строка firstname
-        setSecondName( "secondname" ); // переменной присваивается строка secondname
-        setMonthlySalaryEmployee( 0 ); // переменной присваивается значение 0
-    }
-
-    // функция установки имени
-    void setFirstName(string firstname )
-    {
-        firstNameEmployee = firstname;
-    }
-
-    // функция установки фамилии
-    void setSecondName(string secondname)
-    {
-        secondNameEmployee = secondname;
-    }
-
-    // функция установки зарплаты, с подтверждением данных
-    void setMonthlySalaryEmployee(int salary)
-    {
-        if( salary <= 0 ){
-            monthlySalaryEmployee = 0;
-        }
-
-        if( salary > 0 ){
-            monthlySalaryEmployee = salary;
-        }
-    }
-
-    // функция получение имени
-    string getFirstName(){
-
-        return firstNameEmployee;
-    }
-
-    // функция получения фамилии
-    string getSecondName(){
-
-        return secondNameEmployee;
-    }
-
-    // функция получения значения зарплаты
-    int getMonthlySalary(){
-
-        return monthlySalaryEmployee;
-    }
-
-    // функция выведения полной информации о работнике
-    void displayEmployee(){
-
-        cout << "Information about the employee: \n" << "First name: " << getFirstName()
-             << endl
-             << "Second name: " << getSecondName()
-             << endl
-             << "Monthly salary: " << getMonthlySalary() << endl;
-    }
-
-private:
-    string firstNameEmployee;
-    string secondNameEmployee;
-    int monthlySalaryEmployee;
-
-};
-
-*/
 
 int main()
 {
