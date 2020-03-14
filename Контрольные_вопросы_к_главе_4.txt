@@ -1,0 +1,129 @@
+﻿Контрольные вопросы 
+
+4.1. 
+a) последовательно, повторение, выбор
+b) IF...ELSE
+c) контролируемый счётчиком //  УПРАВЛЯЕМЫМ
+d) контрольное
+ 
+4.2.
+1) x = x + 1;
+2) x = ( x + 1 );
+3) x += 1;
+4) x++;
+5) ++x;
+
+4.3.
+a) z = x++ + y;
+b)  if ( count > 10 ){
+	cout  <<< «Count is greather than 10»;
+	}
+c)  total - --x;
+
+d)
+1) q = q % divisor;
+2) q %= divisor;
+
+4.4.
+
+a) int sum, x;
+b) x = 1;
+c) sum = 0;
+d) sum = x + sum;
+    sum +=  x;
+e)  cout <<< «The sum is « <<< sum;
+
+4.5.
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 1;
+    int sum = 0;
+    while ( x <= 10 ){
+        sum += 1;
+        cout << sum << endl;
+        ++x;
+    }
+    return 0;
+}
+
+ОШИБКА ! ВНИМАТЕЛЬНЕЕ ЧИТАТЬ ЗАДАЧУ!!!
+
+
+4.6.
+
+a) product = 25, x = 6
+b) qotient = 0, x = 7
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    int product = 5;
+    int quotien = 5;
+    int x = 5;
+    product *= x++;
+    cout << "Значение переменных product " << product << " и переменной X " << x << endl;
+    quotien /= ++x;
+    cout << "Значение переменных quotien " << quotien << " и переменной X " << x << endl;
+    return 0;
+}
+
+
+4.7.
+
+    int x;
+    cin >> x;
+    int y;
+    cin >> y;
+
+    
+    int i = 1;
+    int power = 1;
+    
+    power *= x;
+    
+    y++;
+    
+    if ( i <= y )
+    
+    cout << power << endl;
+
+
+
+
+4.8.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    int x;
+    cout << "Ввести число для вычисления степени ";
+    cin >> x;
+    int y;
+    cout << "Ввести значение степени ";
+    cin >> y;
+    int i = 1;
+    int power = 1;
+    while ( i <= y ){
+    power *= x;
+    i++;
+    }
+    cout << power << endl;
+    return 0;
+}
+
+
+4.9.
+
+
